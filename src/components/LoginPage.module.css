@@ -1,0 +1,93 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+.logo {
+   
+      width: 250px;
+      height: auto;
+      margin-right:1200px;
+      margin-top: 20px;
+      
+}
+      
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    font-size:30px;
+    color:darkslategray;
+
+
+}
+.container{
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: 500px;
+    border: 5px solid white;
+    background-color:white;
+    border-radius: 5px;
+    height:500px;
+    width: 500px;
+}
+.container h1{
+    opacity: 100%;
+    color: #03102e;
+    text-align:left;
+    font-size: 50px;
+    font-weight:bold;
+    padding-left: 170px;
+    padding-top: 20px;
+    width: 45%;
+}
+
+
+form{
+    display: flex;
+    flex-direction:column;
+    margin-left: 0px;
+
+}
+input {
+    width: 70%;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+
+}
+label b{
+    display: block;
+    width: 40%;
+    margin-top: 10px;
+    padding-left: 0px;
+    color: #03102e;
+   
+}
+.registerbtn{
+    margin-top: 30px;
+    margin-left: 68px;
+    width: 365px;
+    height: 50px;
+    transition: 0.5s;
+    background:#03102e;
+    border-radius: 5px;
+    border-radius: 2px solid #ccc;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.429);
+    font-size: 16px;
+}
+p{  
+    margin-top: 20px;
+    font-size: small;
+    width: 50%;
+    padding: 0px;
+    color: #03102e;
+}
+.registerbtn:hover{
+    background: transparent;
+    color: #03102e;
+}

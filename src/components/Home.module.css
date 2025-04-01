@@ -1,0 +1,332 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+body{
+    background-color: black;
+    
+}
+.logo{
+    position: sticky; 
+    top: 50px;
+    margin-right:1200px;
+    margin-top: 50px;
+    
+
+}
+.navi{
+    position: fixed;
+    left:60px;
+    background-color: black;
+    margin-top: 60px;
+    float: left;
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    row-gap: 45px;
+
+}
+.navi a{
+
+    color: white;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-family:monospace;
+    font-size: 21px;
+    font-weight: bold;
+    row-gap: 15px;
+
+
+}
+.topnav{ 
+    position: sticky;
+    top: 50px;
+    margin-top: -30px;
+    margin-left: 10px;
+    display: flex;
+    column-gap: 40px;
+    width: 1490px;
+}
+.topnav a{
+    
+    
+    text-decoration: none;
+    text-underline-offset: 3px;
+    font-size: 19px;
+    color:  rgb(88, 85, 85);
+    margin-left:0px;
+    gap: 50px;
+
+}
+.searchbar{
+    
+    margin-left: 340px;
+    margin-top: 0px;
+    width: 90%;
+    height: 30px;
+    color: rgb(88, 85, 85);
+    background-color:black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 18px;
+    
+}
+.naviima{
+    position: fixed;
+    left:5px;
+    margin-top: 58px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 0;
+    row-gap: 40px;
+}
+.naviima img{
+    padding: 0;
+    width:30px;
+    height: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+
+}
+.rightSidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+}
+.mainContent{
+    width: 1000px;
+    flex-basis: 70%;
+    padding: 0;
+    z-index: -1;
+
+}
+.starttyping{
+    
+    background-color:rgb(24, 23, 23);
+    margin-top:60px;
+    margin-left:350px;
+    width:790px;
+    height:70px;
+    border-radius: 3px;
+}
+.start{
+    color:rgb(88, 85, 85);
+    font-size: 20px;
+    padding: 20px;
+    background-color:transparent;
+    border:0px;
+    font-size: 18px;
+    outline: none;
+}
+.starttypingimg{
+    background-color:rgb(40, 38, 38);
+    margin-top:0px;
+    margin-left:350px;
+    width:790px;
+    height:40px;
+    border-radius: 3px;
+}
+.starttypingimg a img{
+    margin-top:10px;
+    margin-left: 10px;
+    height: 90px;
+    width: auto;
+    gap:30px;
+}
+.startImg{
+    margin-left: 670px;
+}
+.popups{
+    margin-top: 30px;
+    margin-right:490px;
+   
+}
+.popups a{
+    padding: 20px;
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+}
+.user{
+    background-color:black;
+    border:2px solid rgb(40, 38, 38);
+    margin-top:-630px;
+    margin-left:350px;
+    width:790px;
+    height:2000px;
+    border-radius: 3px;
+    padding: 0px;
+}
+.postContainer {
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 690px;
+    padding: 20px;
+    color: #eee;
+    align-items: start;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profilePic img {
+    width: 80px;
+    height: auto;
+    border-radius:50%;
+    margin-right: 15px;
+    border: 2px solid #333;
+}
+
+.username {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+.timestamp {
+    margin: 0;
+    font-size: 0.9em;
+    color: #bbb;
+    display: inline;
+}
+
+
+/* Post Content */
+.postContent{
+    display: flex;
+    flex-direction: column;
+}
+.postTitle {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: start;
+}
+
+.postDescription {
+    display: block; /* Ensures it takes full width */
+    margin: 0 0 20px;
+    font-size: 1em;
+    color: #ccc;
+    line-height: 1.5;
+    text-align: left;
+    width: 100%; 
+    
+}
+
+/* right sidebar */
+.rightSidebar{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+    
+}
+.pro{
+    
+    padding: 0px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    width:317px;
+    height: 160px;
+    margin-left: 1180px;
+    margin-top: -160px;
+    background-color: #282c34;
+   
+  
+}
+.pro p{
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.pro h1{
+  color: white;
+  margin-top:10px;
+}
+.registerbtn{
+  background: #1e90ff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.registerbtn:hover{
+    background: #0070cc;
+}
+.topics{
+    
+    padding: 0px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    width:278px;
+    margin-left: 1180px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    
+}
+/* styles.css */
+.topics {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #282c34;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: flex-start;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.cardContent h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.cardContent p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    display: inline;
+    color: white;
+}
+
+.cardContent a {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.cardContent a:hover {
+    text-decoration:underline;
+}

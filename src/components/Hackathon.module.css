@@ -1,0 +1,67 @@
+/* Main Container */
+*{
+    font-family: monospace;
+}
+.container {
+    min-height: 100vh;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #1e90ff;
+}
+
+/* Main Content */
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+/* Hackathon Card */
+.card {
+    background: #161616;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #1e90ff;
+    box-shadow: 0px 4px 10px rgba(255, 152, 0, 0.2);
+}
+
+.card h2 {
+    color:#1e90ff;
+}
+
+.date {
+    font-size: 1rem;
+    color: #bdbdbd;
+    margin-left: 300px;
+}
+
+/* Register Button */
+.registerButton {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #1e90ff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+.registerButton:hover {
+    background: #1e90ff;
+}

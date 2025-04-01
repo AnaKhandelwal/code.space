@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": "f488",
+      "username": "Ana",
+      "email": "ana.khandelwal2023@vitstudent.ac.in",
+      "dob": "2025-04-18",
+      "pass": "anaisgreat"
+    },
+    {
+      "id": "500d",
+      "username": "Hemashree",
+      "email": "iamhema@gmail.com",
+      "dob": "2025-04-24",
+      "pass": "letsgo"
+    },
+    {
+      "id": "28df",
+      "username": "Nethra",
+      "email": "iamnethra@gmail.com",
+      "dob": "2025-04-21",
+      "pass": "iamnethra"
+    },
+    {
+      "id": "55c6",
+      "username": "",
+      "email": "",
+      "dob": "",
+      "pass": ""
+    },
+    {
+      "id": "bac7",
+      "username": "",
+      "email": "",
+      "dob": "",
+      "pass": ""
+    },
+    {
+      "id": "d93c",
+      "username": "Akshitha",
+      "email": "iamakshitha@gmail.com",
+      "dob": "2025-04-01",
+      "pass": "iamakshiha"
+    },
+    {
+      "id": "0578",
+      "username": "sam",
+      "email": "isam@gmail.com",
+      "dob": "2025-04-01",
+      "pass": "sam"
+    },
+    {
+      "id": "9ce2",
+      "username": "",
+      "email": "",
+      "dob": "",
+      "pass": ""
+    },
+    {
+      "id": "6599",
+      "username": "",
+      "email": "",
+      "dob": "",
+      "pass": ""
+    },
+    {
+      "id": "f352",
+      "username": "",
+      "email": "",
+      "dob": "",
+      "pass": ""
+    },
+    {
+      "id": "9761",
+      "username": "jiya",
+      "email": "iamjiya@shdkjs",
+      "dob": "2025-04-01",
+      "pass": "jiya"
+    },
+    {
+      "id": "1c31",
+      "username": "",
+      "email": "",
+      "dob": "",
+      "pass": ""
+    }
+  ]
+}
