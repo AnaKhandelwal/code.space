@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./RegisterPage.module.css"; // Ensure your CSS module is linked
+import styles from "./RegisterPage.module.css"; 
 import {useEffect,useState} from "react" ;
 import Axios from "axios" ;
 const RegisterPage = ({ setPage }) => {
@@ -10,7 +10,6 @@ const RegisterPage = ({ setPage }) => {
   const[pass,setPass] = useState(""); 
   
  
- // const [users,setUsers] = useState([]); //dummy empty array to get the value and check 
  
   useEffect(() => { 
     loadData(); 

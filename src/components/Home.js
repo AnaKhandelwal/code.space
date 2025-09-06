@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Home.module.css";
 
 const Home = ({ setPage, setHistory })=> {
+  
   return (
     <>
       <img className={styles.logo} src="_code.space.png" alt="Logo" />

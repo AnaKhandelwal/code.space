@@ -75,7 +75,7 @@ nav a:hover {
     color: #0d001f;
 }
 .cover{
-    background-image: url(/Cover.png);
+    background-image: url(Cover.png);
 
 
     background-size: cover;
